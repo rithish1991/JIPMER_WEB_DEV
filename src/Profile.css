@@ -1,0 +1,226 @@
+/* Profile.css */
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f8f9fa;
+  }
+  
+  .profile-page {
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+  }
+  
+  .header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem 2rem;
+   
+    color: white;
+  }
+  
+  .logo {
+    display: flex;
+    align-items: center;
+  }
+  
+  .logo-image {
+    height: 40px;
+    margin-right: 0.5rem;
+  }
+  
+  .nav-link {
+    color: white;
+    text-decoration: none;
+    margin-right: 1.5rem;
+    font-weight: bold;
+  }
+  
+  .nav-link.active {
+    border-bottom: 2px solid white;
+  }
+  
+  .logout-button {
+    background-color: #ff6f61;
+    color: white;
+    border: none;
+    padding: 0.5rem 1rem;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  .logout-button:hover {
+    background-color: #e55a50;
+  }
+  
+  .main-content {
+    display: flex;
+    flex: 1;
+  }
+  
+  .left-section {
+    flex: 1;
+    padding: 1rem;
+  }
+  
+  .patient-profile {
+    background-color: white;
+    padding: 1rem;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    margin-bottom: 1rem;
+  }
+  
+  .sidebar {
+    background-color: white;
+    padding: 1rem;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  }
+  
+  .doctor {
+    margin-bottom: 0.5rem;
+    font-weight: bold;
+  }
+  
+  .doctor.active {
+    color: #ff6f61;
+  }
+  
+  .tags {
+    display: flex;
+    gap: 0.5rem;
+    flex-wrap: wrap;
+    margin-top: 1rem;
+  }
+  
+  .tag {
+    padding: 0.5rem 1rem;
+    border-radius: 20px;
+    color: white;
+    font-size: 0.9rem;
+  }
+  
+  .tag.cardiology {
+    background-color: #f67280;
+  }
+  
+  .tag.pulmonology {
+    background-color: #6c5b7b;
+  }
+  
+  .tag.neurology {
+    background-color: #355c7d;
+  }
+  
+  .user-profile {
+    display: flex;
+    align-items: center;
+    margin-top: 1rem;
+  }
+  
+  .avatar {
+    border-radius: 50%;
+    height: 40px;
+    margin-right: 0.5rem;
+  }
+  
+  .user-name {
+    font-weight: bold;
+  }
+  
+  .view-profile {
+    color: #563d7c;
+    text-decoration: none;
+    margin-left: auto;
+    font-size: 0.9rem;
+  }
+  
+  .right-section {
+    flex: 2;
+    display: flex;
+    flex-direction: column;
+    padding: 1rem;
+  }
+  
+  .chat {
+    background-color: white;
+    padding: 1rem;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .message {
+    display: flex;
+    align-items: flex-start;
+    margin-bottom: 1rem;
+  }
+  
+  .message-avatar {
+    border-radius: 50%;
+    height: 40px;
+    margin-right: 1rem;
+  }
+  
+  .message-content {
+    background-color: #f1f1f1;
+    padding: 1rem;
+    border-radius: 8px;
+    flex: 1;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  }
+  
+  .message-meta {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 0.5rem;
+  }
+  
+  .message-date {
+    font-size: 0.8rem;
+    color: #777;
+  }
+  
+  .edit-button, .delete-button {
+    background-color: #563d7c;
+    color: white;
+    border: none;
+    padding: 0.3rem 0.7rem;
+    border-radius: 5px;
+    cursor: pointer;
+    width: 20%;
+  }
+  
+  .delete-button {
+    background-color: #ff6f61;
+  }
+  
+  .chat-input {
+    display: flex;
+    margin-top: auto;
+    gap: 0.5rem;
+  }
+  
+  .chat-input input {
+    flex: 1;
+    padding: 0.5rem;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+  }
+  
+  .send-button {
+    background-color: #563d7c;
+    color: white;
+    border: none;
+    padding: 0.5rem 1rem;
+    border-radius: 5px;
+    cursor: pointer;
+    width: 20%;
+  }
+  

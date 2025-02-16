@@ -1,0 +1,166 @@
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem 2rem;
+    background-color: #fff;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  }
+  
+  .logo {
+    display: flex;
+    align-items: center;
+  }
+  
+  .logo img {
+    width: 300px;
+    height: 30px;
+    margin-right: 0.5rem;
+  }
+  
+  .nav .nav-link {
+    margin-left: 2rem;
+    font-size: 1rem;
+    font-weight: bold;
+    color: #6c63ff;
+    text-decoration: none;
+    border-bottom: 2px solid #6c63ff;
+  }
+  
+  .actions {
+    display: flex;
+    align-items: center;
+  }
+  
+  .btn {
+    padding: 0.5rem 1rem;
+    border: none;
+    background-color: #6c63ff;
+    color: #fff;
+    font-size: 0.9rem;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-left: 1rem;
+  }
+  
+  .logout-btn {
+    background-color: #ff6b6b;
+  }
+  
+  .create-patient-btn {
+    background-color: #6c63ff;
+  }
+  
+  .search-btn {
+    background-color: transparent;
+    border: none;
+  }
+  
+  .search-btn i {
+    font-size: 1.2rem;
+    color: #6c63ff;
+  }
+
+
+  .patient-table {
+    padding: 2rem;
+  }
+  
+  h2 {
+    font-size: 1.5rem;
+    margin-bottom: 1rem;
+  }
+  
+  .filters {
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+    margin-bottom: 1rem;
+  }
+  
+  .search-input {
+    padding: 0.5rem;
+    width: 250px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+  }
+  
+  .filter-btn {
+    background-color: #fff;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    padding: 0.5rem 1rem;
+    cursor: pointer;
+  }
+  
+  table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 1rem;
+  }
+  
+  th, td {
+    padding: 0.75rem;
+    text-align: left;
+    border-bottom: 1px solid #ccc;
+  }
+  
+  th {
+    cursor: pointer;
+  }
+  
+  th:hover {
+    background-color: #f0f0f0;
+  }
+  
+  .open-btn {
+    background-color: #6c63ff;
+    color: white;
+    padding: 0.5rem 1rem;
+    border: none;
+    
+    cursor: pointer;
+  }
+  
+  .open-btn:hover {
+    background-color: #5555ff;
+  }
+  
+  .severity {
+    padding: 0.25rem 0.5rem;
+    border-radius: 5px;
+    font-size: 0.85rem;
+    display: inline-block;
+  }
+  
+  .severity.high {
+    background-color: rgba(255, 0, 0, 0.1);
+    color: red;
+  }
+  
+  .severity.medium {
+    background-color: rgba(255, 165, 0, 0.1);
+    color: orange;
+  }
+  
+  .severity.low {
+    background-color: rgba(0, 255, 0, 0.1);
+    color: green;
+  }
+  
+  .pagination {
+    margin-top: 1rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 1rem;
+  }
+  
+  .page-btn {
+    background-color: white;
+    border: 1px solid #ccc;
+    padding: 0.5rem;
+    cursor: pointer;
+  }
+  
+  
